@@ -1,4 +1,4 @@
-package myjavaprograms;
+package algorithms;
 import java.util.Arrays;
 import bridgeit.utility;
 public class mainfunctocallutility 
@@ -24,9 +24,10 @@ int[] brr= {60,20,50,55,11};
 utility.bubblesortinteger(brr);
 String[] srr= {"abhi","kanna","chinna","nishu"};
 utility.bubblesortstring(srr);
+System.out.println();
 int[] krr= {90,10,34,56};
 utility.insertionsortinteger(krr);
-String[] x= {"s","y","d","c","b"};
+String[] x= {"a","y","c","b","l"};
 utility.insertionsortString(x);
 }
 }
